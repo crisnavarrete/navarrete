@@ -114,7 +114,9 @@ format:
     footnotes-hover: true
     link-external-newwindow: true
     highlight-style: github
-    css: assets/styles/site.css
+    css: 
+      - assets/styles/site.css
+      - assets/styles/mobile.css
     include-after-body: assets/includes/site-scripts.html
     grid:
       sidebar-width: 240px

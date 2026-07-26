@@ -1,5 +1,5 @@
 ---
-title: "About & contact"
+title: "About and contact"
 subtitle: "Research interests, profiles, and ways to get in touch"
 image: assets/images/profile.jpg
 about:
@@ -31,24 +31,24 @@ My theoretical work focuses on realism, causality, mechanisms, and explanation. 
 
 ## Get in touch
 
-::: {.contact-grid}
-::: {.contact-card}
+:::::: contact-grid
+::: contact-card
 ### Academic enquiries
 
 For papers, working drafts, collaborations, or research conversations:
 
-[cristian.navarreteoyanedel@anthro.ox.ac.uk](mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk)
+[cristian.navarreteoyanedel\@anthro.ox.ac.uk](mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk)
 :::
 
-::: {.contact-card}
+::: contact-card
 ### Research profiles
 
 [ORCID](https://orcid.org/0000-0001-5900-5373) · [ResearchGate](https://www.researchgate.net/profile/Cristian-Navarrete-3) · [GitHub](https://github.com/crisnavarrete)
 :::
 
-::: {.contact-card}
+::: contact-card
 ### Social
 
 [Twitter](https://twitter.com/navarreteoya) · [LinkedIn](https://www.linkedin.com/in/cristian-navarrete-116623216)
 :::
-:::
+::::::

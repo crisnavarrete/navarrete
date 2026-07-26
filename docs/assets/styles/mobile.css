@@ -1,0 +1,241 @@
+/* ==========================================================
+   MOBILE STYLES
+   Applied on tablets and phones (≤ 992px)
+   ========================================================== */
+
+@media (max-width: 992px) {
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* -------------------------------------------------------
+     Layout
+  ------------------------------------------------------- */
+
+  .page-columns,
+  .page-layout,
+  .quarto-container,
+  main.content {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* -------------------------------------------------------
+     Navbar
+  ------------------------------------------------------- */
+
+  .navbar {
+    padding: .5rem 0;
+  }
+
+  .navbar-brand img {
+    height: 42px !important;
+    width: auto;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    margin-top: .75rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: .7rem 0;
+  }
+
+  /* -------------------------------------------------------
+     Hero
+  ------------------------------------------------------- */
+
+  .hero,
+  .homepage-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .hero img,
+  .homepage-hero img,
+  .profile-image {
+    width: min(190px, 70vw);
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .hero h1,
+  .homepage-hero h1 {
+    font-size: clamp(2.3rem, 8vw, 3.3rem);
+    line-height: 1.1;
+  }
+
+  .hero h2,
+  .homepage-hero h2,
+  .hero .lead {
+    font-size: 1.15rem;
+  }
+
+  /* -------------------------------------------------------
+     Publications
+  ------------------------------------------------------- */
+
+  .publications-layout {
+    display: block;
+  }
+
+  .publications-sidebar {
+    position: static;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  .publications-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .publications-sidebar li {
+    list-style: none;
+  }
+
+  .publications-sidebar a {
+    display: inline-block;
+    padding: .45rem .9rem;
+    border-radius: 999px;
+  }
+
+  .publication-card {
+    padding: 1.2rem;
+  }
+
+  .publication-actions {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .publication-actions a {
+    justify-content: center;
+  }
+
+  /* -------------------------------------------------------
+     Goodreads & Letterboxd
+  ------------------------------------------------------- */
+
+  .media-grid,
+  .books-grid,
+  .films-grid {
+  grid-template-columns: repeat(2, minmax(140px,1fr));
+}
+
+  .media-card img {
+    border-radius: 14px;
+  }
+
+  /* -------------------------------------------------------
+     Tables
+  ------------------------------------------------------- */
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* -------------------------------------------------------
+     Hide desktop-only elements
+  ------------------------------------------------------- */
+
+  #TOC,
+  .column-margin {
+    display: none;
+  }
+
+  /* -------------------------------------------------------
+     Images
+  ------------------------------------------------------- */
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ==========================================================
+   SMALL PHONES
+   ========================================================== */
+
+@media (max-width: 576px) {
+
+  .hero img,
+  .homepage-hero img,
+  .profile-image {
+    width: 150px;
+  }
+
+  .hero h1,
+  .homepage-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2,
+  .homepage-hero h2,
+  .hero .lead {
+    font-size: 1rem;
+  }
+
+  .media-grid,
+  .books-grid,
+  .films-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75rem;
+  }
+
+}
+
+.publications-sidebar a {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+@media (hover: none) {
+
+  .publication-card:hover,
+  .media-card:hover,
+  .book-card:hover,
+  .film-card:hover {
+    transform: none;
+    box-shadow: inherit;
+  }
+
+}
+
+.publication-title {
+  overflow-wrap: anywhere;
+}
+
+h2,
+h3,
+h4 {
+  scroll-margin-top: 90px;
+}
+
+iframe,
+video {
+  max-width: 100%;
+}
+
+body {
+  padding-bottom: 2rem;
+}
