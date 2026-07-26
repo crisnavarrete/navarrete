@@ -4,10 +4,8 @@ authors:
   - Cristián Navarrete
   - Fernando Campos Medina
 date: 14-03-2025
-categories: [Currently teaching] 
+categories: [Past courses] 
 image: contemp.jpg
-resources:
-  - /files/teoria-cont.pdf
 twitter-card: 
   card-style: summary_large_image
   image: contemp.jpg
@@ -19,22 +17,18 @@ page-layout: full
 
 # Description
 
-<span class="badge bg-success">Taught</span>
+[Taught]{.badge .bg-success}
 
-- **Institution:** Universidad de Chile
-- **Date:** 14-03-2025 and currently ongoing
-- **Level:** Graduate  
-- **Syllabus:**
- <a href="/files/teoria-cont.pdf" class="btn btn-sm btn-primary me-2" role="button" download>⬇ Español (PDF)</a>
-<a href="/files/teoria-cont-en.pdf" class="btn btn-sm btn-primary" role="button" download>⬇ English (PDF)</a>
-- **Taught with:** [Dr. Fernando Campos Medina](https://facso.uchile.cl/sociologia/cuerpo-academico/fernando-campos)
+-   **Institution:** Universidad de Chile
+-   **Date:** 14-03-2025 and currently ongoing
+-   **Level:** Graduate\
+-   **Syllabus:** <a href="files/teoria-cont.pdf" class="btn btn-sm btn-primary me-2" role="button" download>⬇ Español (PDF)</a> <a href="files/teoria-cont-en.pdf" class="btn btn-sm btn-primary" role="button" download>⬇ English (PDF)</a>
+-   **Taught with:** [Dr. Fernando Campos Medina](https://facso.uchile.cl/sociologia/cuerpo-academico/fernando-campos)
 
----
+------------------------------------------------------------------------
 
 # Syllabus
 
-<iframe 
-  src="https://docs.google.com/gview?url=https://crisnavarrete.github.io/cnavarrete/files/teoria-cont.pdf&embedded=true" 
-  style="width:100%; height:600px;" 
-  frameborder="0">
+<iframe src="https://docs.google.com/gview?url=https://crisnavarrete.github.io/navarrete/classes/files/teoria-cont.pdf&amp;embedded=true" style="width:100%; height:600px;" frameborder="0">
+
 </iframe>
