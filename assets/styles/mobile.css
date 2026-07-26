@@ -30,27 +30,10 @@
      Navbar
   ------------------------------------------------------- */
 
-  /* Remove sticky behavior on phones */
-
   .navbar {
-    position: relative !important;
-    top: auto !important;
     padding: .5rem 0;
     box-shadow: none;
-    z-index: 1000;
   }
-
-  .headroom,
-  .headroom--pinned,
-  .headroom--unpinned {
-    transform: none !important;
-  }
-
-  body.nav-fixed {
-    padding-top: 0 !important;
-  }
-
-  /* Smaller logo */
 
   .navbar-brand img {
     height: 24px !important;
@@ -63,15 +46,14 @@
     display: none !important;
   }
 
-  /* Clean mobile menu */
+  /* Make collapsed menu cleaner */
 
   .navbar-collapse {
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-    padding: .75rem 0 0;
+    background: var(--bs-body-bg);
     margin-top: .5rem;
+    padding: 1rem;
+    border: none;
+    box-shadow: none;
     text-align: center;
   }
 
@@ -86,43 +68,47 @@
   .navbar-nav .nav-link {
     display: block;
     width: 100%;
-    padding: .9rem;
+    padding: .85rem;
     font-size: 1.05rem;
-    white-space: normal;
   }
 
   /* -------------------------------------------------------
-     Hero
+     Homepage (Jolla template)
   ------------------------------------------------------- */
 
-  .hero,
-  .homepage-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .quarto-about-jolla {
+    margin-top: 5rem;
     text-align: center;
-    gap: 1.5rem;
-    margin: 2rem 0;
   }
 
-  .hero img,
-  .homepage-hero img,
-  .profile-image {
-    width: min(190px, 70vw);
+  .quarto-about-jolla img {
+    width: 160px !important;
+    max-width: 60vw;
     height: auto;
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
-  .hero h1,
-  .homepage-hero h1 {
-    font-size: clamp(2.3rem, 8vw, 3.3rem);
+  .quarto-about-jolla h1 {
+    font-size: clamp(2.3rem, 8vw, 3.2rem);
     line-height: 1.1;
   }
 
-  .hero h2,
-  .homepage-hero h2,
-  .hero .lead {
-    font-size: 1.15rem;
+  .quarto-about-jolla .about-subtitle,
+  .quarto-about-jolla .lead {
+    font-size: 1.1rem;
+  }
+
+  .quarto-about-jolla .about-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .quarto-about-jolla .about-link {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
   }
 
   /* -------------------------------------------------------
@@ -155,6 +141,7 @@
   .publications-sidebar a {
     display: flex;
     align-items: center;
+    justify-content: center;
     min-height: 40px;
     padding: .45rem .9rem;
     border-radius: 999px;
@@ -172,10 +159,6 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
-  }
-
-  .publication-actions a {
-    justify-content: center;
   }
 
   /* -------------------------------------------------------
@@ -231,20 +214,20 @@
 
 @media (max-width: 576px) {
 
-  .hero img,
-  .homepage-hero img,
-  .profile-image {
-    width: 150px;
+  .quarto-about-jolla {
+    margin-top: 4rem;
   }
 
-  .hero h1,
-  .homepage-hero h1 {
+  .quarto-about-jolla img {
+    width: 140px !important;
+  }
+
+  .quarto-about-jolla h1 {
     font-size: 2rem;
   }
 
-  .hero h2,
-  .homepage-hero h2,
-  .hero .lead {
+  .quarto-about-jolla .about-subtitle,
+  .quarto-about-jolla .lead {
     font-size: 1rem;
   }
 
