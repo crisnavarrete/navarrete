@@ -1,6 +1,6 @@
 /* ==========================================================
    MOBILE STYLES
-   Applied on tablets and phones (≤ 992px)
+   Tablets & Phones (≤ 992px)
    ========================================================== */
 
 @media (max-width: 992px) {
@@ -11,6 +11,7 @@
 
   body {
     overflow-x: hidden;
+    padding-bottom: calc(2rem + env(safe-area-inset-bottom));
   }
 
   /* -------------------------------------------------------
@@ -31,20 +32,38 @@
 
   .navbar {
     padding: .5rem 0;
+    box-shadow: none;
   }
 
   .navbar-brand img {
-    height: 42px !important;
+    height: 26px !important;
     width: auto;
   }
 
+  /* Hide social icons on mobile */
+
+  .navbar .quarto-navbar-tools {
+    display: none;
+  }
+
   .navbar-collapse {
+    background: var(--bs-body-bg);
     text-align: center;
-    margin-top: .75rem;
+    margin-top: .5rem;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: var(--bs-box-shadow-sm);
+    transition: all .2s ease;
+  }
+
+  .navbar-nav {
+    gap: .4rem;
   }
 
   .navbar-nav .nav-link {
-    padding: .7rem 0;
+    padding: .8rem;
+    font-size: 1.05rem;
+    white-space: normal;
   }
 
   /* -------------------------------------------------------
@@ -109,13 +128,19 @@
   }
 
   .publications-sidebar a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
     padding: .45rem .9rem;
     border-radius: 999px;
   }
 
   .publication-card {
     padding: 1.2rem;
+  }
+
+  .publication-title {
+    overflow-wrap: anywhere;
   }
 
   .publication-actions {
@@ -135,8 +160,9 @@
   .media-grid,
   .books-grid,
   .films-grid {
-  grid-template-columns: repeat(2, minmax(140px,1fr));
-}
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 1rem;
+  }
 
   .media-card img {
     border-radius: 14px;
@@ -162,17 +188,20 @@
   }
 
   /* -------------------------------------------------------
-     Images
+     Images & Embeds
   ------------------------------------------------------- */
 
-  img {
+  img,
+  iframe,
+  video {
     max-width: 100%;
     height: auto;
   }
+
 }
 
 /* ==========================================================
-   SMALL PHONES
+   SMALL PHONES (≤ 576px)
    ========================================================== */
 
 @media (max-width: 576px) {
@@ -203,11 +232,9 @@
 
 }
 
-.publications-sidebar a {
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-}
+/* ==========================================================
+   Touch devices
+   ========================================================== */
 
 @media (hover: none) {
 
@@ -221,21 +248,12 @@
 
 }
 
-.publication-title {
-  overflow-wrap: anywhere;
-}
+/* ==========================================================
+   Global improvements
+   ========================================================== */
 
 h2,
 h3,
 h4 {
   scroll-margin-top: 90px;
-}
-
-iframe,
-video {
-  max-width: 100%;
-}
-
-body {
-  padding-bottom: 2rem;
 }
