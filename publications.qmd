@@ -1,0 +1,19 @@
+---
+title: "Publications"
+subtitle: "Published work, preprints, and working papers"
+jupyter: python3
+toc: false
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+<p class="publications-lead">Publication metadata is maintained once in <code>data/publications/papers.yaml</code>. This page is generated automatically when Quarto renders the site.</p>
+
+```{python}
+from IPython.display import HTML, display
+from src.site_components.publications import render_publications
+
+display(HTML(render_publications("data/publications/papers.yaml")))
+```

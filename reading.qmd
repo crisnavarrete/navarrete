@@ -1,0 +1,19 @@
+---
+title: "Reading"
+subtitle: "A responsive gallery generated from a Goodreads library export"
+jupyter: python3
+toc: false
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+<p class="gallery-intro">This gallery reads your Goodreads export at render time. Ratings, reading dates, links, and your own review text come from the export; cover images use ISBN lookups from Open Library when available.</p>
+
+```{python}
+from IPython.display import HTML, display
+from src.site_components.media_gallery import render_goodreads
+
+display(HTML(render_goodreads("data/reading/goodreads_library_export.csv")))
+```

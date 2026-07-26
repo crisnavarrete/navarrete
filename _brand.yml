@@ -1,0 +1,52 @@
+meta:
+  name: "Cristián Navarrete"
+  link: "https://crisnavarrete.github.io/cnavarrete/"
+
+color:
+  palette:
+    oxford-blue: "#18324A"
+    deep-teal: "#0B6F69"
+    bright-mint: "#55D6BE"
+    warm-gold: "#C47A3D"
+    paper: "#F8F6F1"
+    white: "#FFFFFF"
+    ink: "#202832"
+    slate: "#607080"
+    night: "#101820"
+    midnight: "#17222D"
+    mist: "#DCE5E3"
+
+  primary: deep-teal
+  secondary: oxford-blue
+  background: paper
+  foreground: ink
+  info: oxford-blue
+  warning: warm-gold
+
+logo:
+  images:
+    site-logo:
+      path: assets/brand/logo.png
+      alt: "Health, science and society"
+  medium: site-logo
+
+typography:
+  fonts:
+    - family: "Source Sans 3"
+      source: google
+      weight: [400, 500, 600, 700]
+      style: [normal, italic]
+
+  base:
+    family: "Source Sans 3"
+    size: 1rem
+    line-height: 1.65
+
+  headings:
+    family: "Source Sans 3"
+    weight: 600
+    line-height: 1.15
+
+  monospace:
+    family: "Source Sans 3"
+    size: 0.9rem

@@ -1,0 +1,12 @@
+---
+title: "Writing"
+subtitle: "Research notes, reflections, and occasional posts in English or Spanish"
+toc: false
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  categories: true
+  page-size: 9
+  fields: [image, date, title, description, categories]
+---

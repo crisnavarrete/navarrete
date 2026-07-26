@@ -1,0 +1,12 @@
+---
+title: "Teaching"
+subtitle: "Classes, syllabi, and teaching materials"
+toc: false
+listing:
+  contents: classes/**
+  type: grid
+  sort: "date desc"
+  categories: true
+  page-size: 9
+  fields: [image, date, title, description, categories]
+---

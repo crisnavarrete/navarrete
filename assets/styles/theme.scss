@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+$enable-rounded: true;
+$border-radius: 0.7rem;
+$border-radius-sm: 0.45rem;
+$border-radius-lg: 1rem;
+$btn-font-weight: 600;
+$btn-padding-y: 0.6rem;
+$btn-padding-x: 1rem;
+$navbar-padding-y: 0.8rem;
+$headings-margin-bottom: 0.7rem;
+$paragraph-margin-bottom: 1.15rem;
+
+/*-- scss:rules --*/
+::selection {
+  background: rgba(11, 111, 105, 0.24);
+}
+
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+.dropdown-menu,
+h1, h2, h3, h4, h5, h6,
+p, li, a, button, input, textarea, select {
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+/* Navbar logo */
+.navbar-brand img {
+    max-height: 200px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* Navbar height */
+.navbar {
+    max-height: 75px;
+}
+
+.quarto-title-block {
+  text-align: center;
+}
+
+.quarto-title .title,
+.quarto-title .subtitle {
+  text-align: center;
+}
+
+.quarto-title .title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quarto-title .subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+

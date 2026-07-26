@@ -1,0 +1,54 @@
+---
+title: "About & contact"
+subtitle: "Research interests, profiles, and ways to get in touch"
+image: assets/images/profile.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 16rem
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/navarreteoya
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cristian-navarrete-116623216
+    - icon: github
+      text: GitHub
+      href: https://github.com/crisnavarrete
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-5900-5373
+toc: false
+---
+
+I am a sociologist and DPhil student in Anthropology at the University of Oxford. My research connects science and technology studies, medical anthropology, social theory, and the philosophy of the social sciences.
+
+My theoretical work focuses on realism, causality, mechanisms, and explanation. My empirical research has examined antimicrobial resistance and laboratory work, and my current direction concerns the population-health implications of energy transitions.
+
+## Get in touch
+
+::: {.contact-grid}
+::: {.contact-card}
+### Academic enquiries
+
+For papers, working drafts, collaborations, or research conversations:
+
+[cristian.navarreteoyanedel@anthro.ox.ac.uk](mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk)
+:::
+
+::: {.contact-card}
+### Research profiles
+
+[ORCID](https://orcid.org/0000-0001-5900-5373) · [ResearchGate](https://www.researchgate.net/profile/Cristian-Navarrete-3) · [GitHub](https://github.com/crisnavarrete)
+:::
+
+::: {.contact-card}
+### Social
+
+[Twitter](https://twitter.com/navarreteoya) · [LinkedIn](https://www.linkedin.com/in/cristian-navarrete-116623216)
+:::
+:::

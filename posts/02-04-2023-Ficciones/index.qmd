@@ -1,0 +1,15 @@
+---
+title: "De dónde viene el enganche de la ficción? "
+description: "Hay variados medios para hacer ficción, y sin excepción todos se me hacen fundamentales a vivir. Aquí quiero expresar en qué creo que reside su fuerza"
+author:
+  - name: Cristián Navarrete
+    url: 
+    orcid: 0000-0001-5900-5373
+    affiliation: Magíster en Sociología, Instituto de Sociología, Pontificia Universidad Católica de Chile
+    affiliation-url:  
+date: 02-04-2023
+categories: [Ficción] 
+image: Cinema.jpg
+draft: true
+draft-mode: gone
+---

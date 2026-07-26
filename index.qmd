@@ -1,0 +1,79 @@
+---
+title: "Cristián Navarrete"
+subtitle: "DPhil student in Anthropology · University of Oxford"
+image: assets/images/profile.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 18rem
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-5900-5373
+    - icon: file-earmark-person
+      text: CV
+      href: assets/documents/NavarreteC_CV.pdf
+toc: false
+page-layout: full
+---
+
+::: hero-intro
+I am a sociologist and DPhil in Anthropology at the University of Oxford. My work sits at the intersection of science, health, and society, with a parallel interest in social theory, methods, and the philosophy of the social sciences
+:::
+
+::: home-actions
+[Explore publications](publications.qmd){.btn .btn-primary} [Read the blog](posts.qmd){.btn .btn-outline-primary} [Download CV](assets/documents/NavarreteC_CV.pdf){.btn .btn-outline-secondary}
+:::
+
+## Research
+
+:::::: research-grid
+::: research-card
+<p class="section-kicker">
+
+Empirical
+
+</p>
+
+### Science, health and society
+
+Energy transitions, resource extraction, population health, and antimicrobial resistance
+:::
+
+::: research-card
+<p class="section-kicker">
+
+Theoretical
+
+</p>
+
+### Realism and explanation
+
+Mechanisms and realist frameworks in sociology and the social sciences
+:::
+
+::: research-card
+<p class="section-kicker">
+
+Current direction
+
+</p>
+
+### Energy transitions and health
+
+How changing energy systems—and the infrastructures and resource demands around them—shape population health
+:::
+::::::
+
+## Current work
+
+At Oxford, I am developing research on the health implications of energy transitions, including the relationship between new energy activities, water use, infrastructure, and population health. Across projects, I am interested in how human flourishing, knowledge, health, and how to best study them
+
+## Beyond research
+
+I also use this site to share reflections, teaching materials, reading, films, and career updates. Comments and conversations are always welcome.
+
+Posts may appear in English or Spanish. Working papers listed on this site are either under review or developed enough to share and discuss

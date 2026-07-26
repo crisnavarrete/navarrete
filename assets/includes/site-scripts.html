@@ -1,0 +1,51 @@
+<script>
+(() => {
+  "use strict";
+
+  const navbar = document.querySelector(".navbar");
+  const updateNavbar = () => {
+    if (!navbar) return;
+    navbar.classList.toggle("site-has-scrolled", window.scrollY > 12);
+  };
+
+  updateNavbar();
+  window.addEventListener("scroll", updateNavbar, { passive: true });
+
+  document.querySelectorAll("[data-gallery-filter]").forEach((toolbar) => {
+    const section = toolbar.closest(".gallery-section");
+    if (!section) return;
+
+    const buttons = Array.from(toolbar.querySelectorAll("[data-filter]"));
+    const cards = Array.from(section.querySelectorAll("[data-gallery-item]"));
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter || "all";
+
+        buttons.forEach((candidate) => {
+          const active = candidate === button;
+          candidate.classList.toggle("is-active", active);
+          candidate.setAttribute("aria-pressed", String(active));
+        });
+
+        cards.forEach((card) => {
+          const visible = filter === "all" || card.dataset.year === filter;
+          card.hidden = !visible;
+        });
+      });
+    });
+  });
+
+  document.querySelectorAll(".media-cover img").forEach((image) => {
+    image.addEventListener("error", () => image.remove(), { once: true });
+  });
+
+  document.querySelectorAll('a[target="_blank"]').forEach((link) => {
+    const rel = new Set((link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
+    rel.add("noopener");
+    rel.add("noreferrer");
+    link.setAttribute("rel", Array.from(rel).join(" "));
+  });
+})();
+
+</script>

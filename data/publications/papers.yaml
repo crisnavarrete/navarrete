@@ -1,0 +1,155 @@
+settings:
+  self_author: "Navarrete, C."
+
+papers:
+
+  - id: value-free
+    title: "There is no such thing as a value-free (social) science: how sociologists do things with values and data"
+    authors: ["Barra, M.", self]
+    year: 2026
+    status: working-paper
+    type: article
+    
+  - id: ethnography-inf
+    title: "Ethnography is all about making inferences"
+    authors: [self]
+    year: 2026
+    status: working-paper
+    type: article
+    
+  - id: latour-realism-chp
+    title: "Latour contra Latour: las promesas y reducciones de su realismo científico"
+    authors: [self]
+    year: 2026
+    status: in-print
+    type: chapter
+    
+  - id: future-sts-review
+    title: "Three theses of the future as a Science, Technology and Society Studies research object: current approaches and challenges"
+    authors: [self, "Ojeda-Pereira, I.", "Campos-Medina, F."]
+    year: 2026
+    status: published
+    type: article
+    venue: "Humanities and Social Sciences Communications"
+    links:
+      published: "https://www.nature.com/articles/s41599-026-07541-0"
+      
+  - id: future-sts-black-box
+    title: "Opening the Methodological Black Box in Science and Technology Studies of the Future(s). Shadows and Proposals"
+    authors: [self, "Campos-Medina, F.", "Ojeda-Pereira, I."]
+    year: 2025
+    status: published
+    type: article
+    venue: "Futures"
+    links:
+      published: "https://www.researchgate.net/publication/396268046_Opening_the_Methodological_Black_Box_in_Science_and_Technology_Studies_of_the_Futures_Shadows_and_Proposals"
+
+  - id: extractive-modalities
+    title: "Extractive modalities: theorizing socio-environmental extractivism, its variation and shared features"
+    authors: ["Ojeda-Pereira, I.", self]
+    year: 2025
+    status: working-paper
+    type: article
+
+  - id: green-hydrogen-patagonia
+    title: "Energy transitions without a developmental State: building and anticipating a green hydrogen industry in Chilean Patagonia"
+    authors: ["Figueroa, R.", self, "Campos-Medina, F.", "Ojeda-Pereira, I."]
+    year: 2025
+    status: working-paper
+    type: article
+
+  - id: temporal-dynamics-conflicts
+    title: "The temporal dynamics of socio-environmental conflicts: D-escalation of media coverage on Los Pelambres’ copper mining tailing dams in Chile (2005-2024)"
+    authors: ["Campos-Medina, F.", self, "Ojeda-Pereira, I."]
+    year: 2025
+    status: working-paper
+    type: article
+
+  - id: laboratory-uncertainty
+    title: "Generalized but differently organized: The scientific uncertainty of antimicrobial resistance laboratory work"
+    authors: [self]
+    year: 2025
+    status: working-paper
+    type: article
+
+  - id: realist-theory-science-guide
+    title: "Revisiting Realist Theory of Science: A practical guide"
+    authors: ["Fryer, T.", self]
+    year: 2024
+    status: published
+    type: educational-resource
+    venue: "Educational Resource"
+    links:
+      published: "https://www.researchgate.net/publication/388491020_Revisiting_Realist_Theory_of_Science_A_practical_guide"
+
+  - id: rearticulating-realism
+    title: "Rearticulating Realism: Chains of Reference and Epistemic Success in the Sciences"
+    authors: [self]
+    year: 2024
+    status: published
+    type: article
+    venue: "Sociological Theory"
+    links:
+      published: "https://journals.sagepub.com/doi/10.1177/07352751241291831"
+
+  - id: antibioceno
+    title: "Desplazando escalas y temporalidades: Desafíos socioecológicos del Antibioceno al debate ambiental"
+    authors: [self]
+    year: 2024
+    status: published
+    type: article
+    venue: "Cuadernos de Teoría Social"
+    links:
+      published: "https://cuadernosdeteoriasocial.udp.cl/index.php/tsocial/article/view/159"
+
+  - id: why-beyond-causality
+    title: "Answering ‘why’ beyond causality: exploring (non)causal explanation in qualitative research"
+    authors: [self]
+    year: 2024
+    status: preprint
+    type: article
+    venue: "Advance"
+    links:
+      preprint: "https://advance.sagepub.com/doi/full/10.31124/advance.172427543.34805937"
+
+  - id: ontology-epistemology-guide
+    title: "A short guide to ontology and epistemology: Why everyone should be a realist (Third edition)"
+    authors: ["Fryer, T.", self]
+    year: 2024
+    status: published
+    type: educational-resource
+    links:
+      published: "https://tfryer.com"
+
+  - id: contextual-emergence
+    title: "Redefining emergence: Making the case for contextual emergence in critical realism"
+    authors: [self, "Fryer, T."]
+    year: 2024
+    status: published
+    type: article
+    venue: "Journal for the Theory of Social Behavior"
+    links:
+      published: "https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsb.12414"
+
+  - id: three-domains-roundtable
+    title: "Does critical realism need the concept of three domains of reality? A roundtable"
+    authors: ["Elder-Vass, D.", "Fryer, T.", "Groff, R.", self, "Nelhaus, T."]
+    year: 2023
+    status: published
+    type: article
+    venue: "Journal of Critical Realism"
+    links:
+      published: "https://tandfonline.com/doi/full/10.1080/14767430.2023.2180965"
+
+  - id: masters-thesis
+    title: "La incertidumbre más allá del conocimiento: una gestalt constitutiva del trabajo de laboratorio en resistencia antimicrobiana"
+    authors: [self]
+    year: 2023
+    status: published
+    type: thesis
+    venue: "Master’s thesis, Pontificia Universidad Católica de Chile"
+    links:
+      published: "https://www.researchgate.net/publication/377595684_La_incertidumbre_mas_alla_del_conocimiento_una_gestalt_constitutiva_del_trabajo_de_laboratorio_en_resistencia_antimicrobiana"
+
+
+  

@@ -1,0 +1,35 @@
+---
+title: "Sobre Hamnet"
+description: "Qué queda conmigo"
+author:
+  - name: Cristián Navarrete
+    url: 
+    orcid: 0000-0001-5900-5373
+    affiliation: Doctorante, University of Oxford
+    affiliation-url:  
+date: 04-14-2026
+categories: [Ficción] 
+image: Agnes.jpg
+draft: false
+draft-mode: gone
+---
+
+# Amar, sufrir y amar
+
+Hamnet es una película maravillosamente triste y llena de esperanza. Es ambas cosas intencionalmente, me parece. Porque en ella late la idea de que, en este mundo, difícilmente podemos tener una cosa sin la otra.
+
+Es este punto el que me cautivó y que me interesa sobre la película. De por sí, las actuaciones y escenografía son geniales. La repetición de las tomas quietas en mesas, donde la vida transcurre, a ratos cargada de emociones, a rato como ausente de ellas. Lo que también se manifiesta en el vestuario. Mas no es esto con lo que me quedo. Si no con una simple idea y frase que, creo, encapsula gran parte de las emociones que subyacen al film.
+
+> Un año no es nada, dice Agnes a William, a propósito de la muerte de Hamnet.
+
+Y es que, qué es un año frente a la pérdida de un hijo. Pero no solo es solo ese el punto. Más allá de lo relativo de un año en el duelo, más allá de lo poco que pueda ser, la idea de Agnes creo que es otra.
+
+No es en la distancia y abstracción del pasar de los años que el duelo duele, sino en la aparente eternidad de los segundos, minutos y horas que componen el día a día. La falta de amor, tacto y cariño—arrebatadas por la arbitrariedad de la muerte—que se presenta como absoluta en la inmediatez de la vida. Esa absoluta inmediatez y cotidianeidad de la que William no es parte.
+
+Es esto lo que recrimina Agnes. Es el motivo de ser/estar, presentado en el duelo.
+
+Aunque de otro modo, creo que vemos esto en William también. En su vacío interno, su odio, miedo y depresión. Es precisamente esa cotidianeidad idílica que lo lleva a enfrentarse a la sobreabundancia de su personalidad, de su historia, quién es y quién cree que es, lo que le genera angustia. Es, en parte, eso lo que en primer lugar lo lleva a Londres. Lo que implica no estar/ser.
+
+Y, sin embargo, este sufrimiento, ahora impulsado por el duelo, encuentra expresión en sus obras. Un gesto público de quien se ahoga en sí mismo, y contempla ahogarse realmente. Una consagración del duelo, arrepentimiento, lo que pudo ser, y que por la bruta fuerza de la creatividad y voluntad humana ha sido marcada en la historia como ficción. Una que guarda la realidad del espíritu humano.
+
+> Que en un mundo, no solo indiferente, si no también hostil e insoportablemente adormecido, el amor existe. La conexión genuina, amable, virtuosa y contagiosa es traspasable y real. Mas dicho amor es virtud. Una hazaña, fruto del carácter cultivado, y fácilmente arrebatable sin propio cuidado. Por lo que, aunque el sufrimiento es parte inexorable de esta tierra, puede ser compartido y a través de la propia virtud que es amar a otros por entero, también puede ser aliviado.

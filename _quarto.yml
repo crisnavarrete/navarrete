@@ -1,0 +1,125 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "classes/**/*.qmd"
+  resources:
+    - assets/brand/**
+    - assets/documents/**
+    - assets/images/**
+
+lang: en
+
+website:
+  title: "Cristián Navarrete"
+  description: "Academic website of Cristián Navarrete: anthropology, science and technology studies, social theory, health, and energy transitions."
+  site-url: https://crisnavarrete.github.io/navarrete/
+  repo-url: https://github.com/crisnavarrete/navarrete
+  repo-actions: [source, issue]
+  favicon: assets/brand/favicon.png
+  image: assets/brand/logo-stacked.png
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  google-analytics:
+    tracking-id: "G-2VZVNV14SN"
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    title: false
+    background: transparent
+    search: true
+    collapse-below: lg
+    pinned: true
+    logo: assets/brand/logo.png
+    logo-alt: "Cristián Navarrete"
+    logo-width: 340px
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: publications.qmd
+      - text: Blog
+        href: posts.qmd
+      - text: Teaching
+        href: classes.qmd
+      - text: Culture
+        menu:
+          - text: Reading
+            icon: book
+            href: reading.qmd
+          - text: Films
+            icon: film
+            href: films.qmd
+      - text: About
+        href: about.qmd
+      - text: CV
+        icon: file-earmark-person
+        href: assets/documents/NavarreteC_CV.pdf
+    tools:
+      - icon: twitter
+        href: https://twitter.com/navarreteoya
+        aria-label: Twitter profile
+      - icon: github
+        href: https://github.com/crisnavarrete
+        aria-label: GitHub profile
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cristian-navarrete-116623216
+        aria-label: LinkedIn profile
+      - icon: journal-text
+        href: https://www.researchgate.net/profile/Cristian-Navarrete-3
+        aria-label: ResearchGate profile
+      - icon: orcid
+        href: https://orcid.org/0000-0001-5900-5373
+        aria-label: ORCID profile
+  page-footer:
+    border: true
+    left: "© 2026 Cristián Navarrete"
+    center: "Science, health & society"
+    right:
+      - text: Email
+        href: mailto:cristian.navarreteoyanedel@anthro.ox.ac.uk
+      - text: Source
+        href: https://github.com/crisnavarrete/cnavarrete
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - brand
+        - assets/styles/theme.scss
+        - assets/styles/theme-light.scss
+      dark:
+        - darkly
+        - brand
+        - assets/styles/theme.scss
+        - assets/styles/theme-dark.scss
+    respect-user-color-scheme: false
+    toc: true
+    toc-title: On this page
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-cap-location: bottom
+    reference-location: document
+    footnotes-hover: true
+    link-external-newwindow: true
+    highlight-style: github
+    css: assets/styles/site.css
+    include-after-body: assets/includes/site-scripts.html
+    grid:
+      sidebar-width: 240px
+      body-width: 920px
+      margin-width: 260px
+      gutter-width: 2rem
+
+editor: visual
