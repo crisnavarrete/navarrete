@@ -1,6 +1,5 @@
 ---
 title: "Films"
-subtitle: "Ratings from Letterboxd, with reviews published on this site"
 jupyter: python3
 toc: false
 execute:
@@ -8,8 +7,6 @@ execute:
   warning: false
   freeze: auto
 ---
-
-<p class="gallery-intro">This page reads films from <code>data/films/letterboxd/ratings.csv</code>. When a film title appears in the title of a post under <code>posts/</code>, the card links to that review automatically.</p>
 
 ```{python}
 from IPython.display import HTML, display

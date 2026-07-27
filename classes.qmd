@@ -3,7 +3,9 @@ title: "Teaching"
 subtitle: "Classes, syllabi, and teaching materials"
 toc: false
 listing:
-  contents: classes/**
+  contents:
+    - classes/*.qmd
+    - classes/**/*.qmd
   type: grid
   sort: "date desc"
   categories: true
